@@ -1,38 +1,49 @@
 # Xie Yihan | Data Science Portfolio
 
-I am developing practical data analysis and visualization skills through CISC7204 coursework. These course-derived projects show how I frame questions, inspect data, present findings and document limitations.
+I am developing data analysis and visualization skills through CISC7204 coursework. These course-derived projects show how I connect research questions, evidence and limitations.
 
-**Technical skills:** Python, pandas, NumPy, Matplotlib, Seaborn, statistical exploration, regression, Plotly and Dash.
+**Skills:** Python, pandas, NumPy, Matplotlib, Seaborn, statistical exploration, Plotly and Dash.
 
 ## King County House Prices
-**Question:** How do area and waterfront status relate to house sale prices?
+**Research question:** How do area and waterfront status relate to house sale prices?
 
-![Area and price](area-price.png)
+![Above-ground area versus price in historical King County sales](area-price.png)
 
-Above-ground area and price have a positive Pearson correlation of 0.606 in the course dataset. Waterfront median prices are higher, but the waterfront group is small; this does not demonstrate causation. Historical observations cannot establish current market values.
+**Main finding:** Above-ground area and price have a positive correlation of 0.606. Waterfront median prices are higher.
 
-**Status:** descriptive analysis completed.
+**Limitation:** Historical 2014–2015 observations and a small waterfront group cannot establish causality or current market prices.
+
+**Status:** Completed descriptive analysis; rerun verified.
+
+[Code and documentation](https://github.com/LiviaFragmo/data-science-project)
 
 ## Laptop Pricing
-**Question:** How do hardware attributes and manufacturer groups relate to price?
+**Research question:** How do hardware attributes and manufacturer groups relate to price?
 
-![Laptop price distribution](chart-1.png)
+![Laptop price distribution from the reproduced analysis](chart-1.png)
 
-Prices are right-skewed (skewness 1.274), and RAM is positively associated with price (correlation 0.549). Manufacturer-group comparisons are exploratory; a limited course sample restricts generalization.
+**Main finding:** In 238 records, prices are right-skewed (skewness 1.274), and RAM is positively associated with price (correlation 0.549).
 
-**Status:** coursework completed; independent rerun pending.
+**Limitation:** A small teaching sample and unequal manufacturer groups limit generalization; associations do not establish causation.
+
+**Status:** Completed exploratory analysis; rerun and four exported charts verified.
+
+[Code and run instructions](https://github.com/LiviaFragmo/data-science-project/blob/main/laptop-pricing_README.md)
 
 ## Automobile Sales Dashboard
-**Question:** How do sales patterns differ across recession periods and selected years?
+**Research question:** How do sales patterns vary between recession periods and selected years?
 
-![Dashboard](dashboard-1.png)
+![Recession report showing automobile sales by year](dashboard-1.png)
 
-The course data has lower average sales in recession observations (about 649 versus 2,817 in other observations). Report controls display sales and advertising charts; these descriptive comparisons make no causal claims. Python execution requires a local or compatible server environment.
+**Main finding:** The teaching data shows average sales of about 649 during recession observations versus 2,817 in other observations.
 
-**Status:** coursework completed; independent rerun pending.
+**Limitation:** Descriptive comparisons in an instructional dataset cannot establish causal effects or represent a real manufacturer.
 
-## Project repository
-[Browse all three projects](https://github.com/LiviaFragmo/data-science-project)
+**Status:** Completed dashboard; HTTP endpoints, report callbacks and year controls verified.
 
-## Acknowledgments
-These projects are based on CISC7204 coursework and IBM Skills Network learning resources. AI assisted documentation and portfolio preparation.
+[Code and run instructions](https://github.com/LiviaFragmo/data-science-project/blob/main/automobile-dashboard_README.md). The interactive Python dashboard runs locally or on a compatible Python host; this site displays its screenshots.
+
+## Reproducibility and acknowledgment
+[Validation details](https://github.com/LiviaFragmo/data-science-project/blob/main/reproduction-report.md)
+
+Projects derive from CISC7204 coursework and IBM Skills Network resources. Source CSVs are read from the provider or an authorized local copy; raw course data is not republished. AI assisted organization, documentation, code revisions and validation. Classmate review is pending.
