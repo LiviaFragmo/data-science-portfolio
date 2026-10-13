@@ -4,6 +4,14 @@ I am developing data analysis and visualization skills through CISC7204 coursewo
 
 **Skills:** Python, pandas, NumPy, Matplotlib, Seaborn, statistical exploration, Plotly and Dash.
 
+## Projects at a glance
+
+| Project and question | Main finding | Main limitation |
+| --- | --- | --- |
+| Housing: how are property features associated with price? | Area-price correlation 0.606; waterfront median prices are higher. | Historical observations and a small waterfront group; no causal interpretation. |
+| Laptop: how are hardware attributes associated with price? | Right-skewed prices; RAM-price correlation 0.549. | Small teaching sample and unequal manufacturer groups. |
+| Automobile: how do recession and yearly reports differ? | Average sales about 649 in recession observations versus 2,817 otherwise. | Instructional data and grouped comparisons; no causal inference. |
+
 ## King County House Prices
 **Research question:** How do area and waterfront status relate to house sale prices?
 
@@ -46,4 +54,4 @@ I am developing data analysis and visualization skills through CISC7204 coursewo
 ## Reproducibility and acknowledgment
 [Validation details](https://github.com/LiviaFragmo/data-science-project/blob/main/reproduction-report.md)
 
-Projects derive from CISC7204 coursework and IBM Skills Network resources. Source CSVs are read from the provider or an authorized local copy; raw course data is not republished. AI assisted organization, documentation, code revisions and validation. Classmate review is pending.
+Projects derive from CISC7204 coursework and IBM Skills Network resources. Source CSVs are read from the provider or an authorized local copy; raw course data is not republished. AI assisted organization, documentation, code revisions and validation. A classmate reviewed the portfolio. In response to the confirmed feedback, I added the comparison table above to make purposes, findings and limitations easier to compare. [Review and improvement record](https://github.com/LiviaFragmo/data-science-portfolio/blob/main/review-and-improvement.md).
