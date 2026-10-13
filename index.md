@@ -11,14 +11,14 @@ I am developing practical data analysis and visualization skills through CISC720
 
 Above-ground area and price have a positive Pearson correlation of 0.606 in the course dataset. Waterfront median prices are higher, but the waterfront group is small; this does not demonstrate causation. Historical observations cannot establish current market values.
 
-**Status:** descriptive analysis completed; portfolio publication pending.
+**Status:** descriptive analysis completed.
 
 ## Laptop Pricing
 **Question:** How do hardware attributes and manufacturer groups relate to price?
 
 ![Laptop price distribution](chart-1.png)
 
-The analysis explores price distributions, manufacturer comparisons and numerical predictors. Dataset codes and a limited sample restrict interpretation.
+Prices are right-skewed (skewness 1.274), and RAM is positively associated with price (correlation 0.549). Manufacturer-group comparisons are exploratory; a limited course sample restricts generalization.
 
 **Status:** coursework completed; independent rerun pending.
 
@@ -27,7 +27,7 @@ The analysis explores price distributions, manufacturer comparisons and numerica
 
 ![Dashboard](dashboard-1.png)
 
-Report controls display aggregated sales and advertising charts. The dashboard supports exploration, with no causal claims. Python execution requires a local or compatible server environment.
+The course data has lower average sales in recession observations (about 649 versus 2,817 in other observations). Report controls display sales and advertising charts; these descriptive comparisons make no causal claims. Python execution requires a local or compatible server environment.
 
 **Status:** coursework completed; independent rerun pending.
 
